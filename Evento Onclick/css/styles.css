@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+
+
+/* barra de navegación */
+.bodyPetlopedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d3d3d3; 
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.search-bar{
+    flex: 1; 
+    background-color: #ffffff; 
+    color: white;
+    margin: 0 200px; 
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* botón "Iniciar sesión" */
+.login-button {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Contenedores principales */
+.main-content, .Ucont {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.definition-box {
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 0px;
+    width: 70%;
+    background-color: #fff;
+}
+
+.definition-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.definition-box p {
+    margin-bottom: 10px;
+}
+
+.like-button {
+    background-color: #f9edc5;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+/*cuadro lateral */
+.sidebar {
+    border: 1px solid #000;
+    padding: 15px;
+    background-color: #fff;
+    width: 28%;
+    height: 110px; 
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.add-definition-button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 30px;
+    border: none;
+    margin-top: 15px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+

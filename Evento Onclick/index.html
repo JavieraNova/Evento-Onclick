@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Petlopedia</title>
+        <link rel="stylesheet" href="css\styles.css" />
+        <script src="js\script.js" defer></script>
+    </head>
+    <body>
+        <div class="bodyPetlopedia">
+            <h1> Petlopedia</h1>
+            <input type="text" placeholder="Buscar mascotas" class="search-bar"> 
+            <button class="login-button" onclick="cambiarTexto(this)">Iniciar sesión</button>
+        </div>
+        <div class="main-content">
+            <!-- Primera definición -->
+            <div class="definition-box">
+                <h2>Gato Atigrado</h2>
+                <p><em>sustantivo</em></p>
+                <p><strong>Plural:</strong> Gatos Atigrados</p>
+                <p>Un gato con un pelaje distintivo que presenta rayas, puntos o patrones en remolino, usualmente con una marca en forma de "M" en su frente.</p>
+                <button class="like-button" onclick="mostrarAlerta('Gato Atigrado', this)">22 me gusta</button>
+
+            </div>
+
+            <!-- Caja lateral -->
+            <div class="sidebar">
+                <h2>Petlopedia está definida por TI</h2>
+                <button class="add-definition-button" onclick="agregarDefinicion(this)">Agregar Definición</button>
+            </div>
+        </div>
+        <!-- Segunda definición -->
+        <div class="Ucont">
+        <div class="definition-box">
+            <h2>Golden Retriever</h2>
+            <p><em>sustantivo</em></p>
+            <p><strong>Plural:</strong> Golden Retrievers</p>
+            <p>Una raza de perro amistosa, inteligente y devota, conocida por su pelaje dorado y su habilidad para recuperar objetos sin dañarlos.</p>
+            <button class="like-button" onclick="mostrarAlerta('Golden Retriever')">45 me gusta</button>
+        </div>
+    </div>
+    </body>
+</html>
